@@ -38,14 +38,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 flask run
 
-Backend will start at: http://localhost:5000
+Backend will start at: [http://localhost:5000](http://127.0.0.1:5000)
 
 3. Frontend Setup (React)
 cd image-recognition-frontend
 npm install
 npm start
 
-Frontend will start at: http://localhost:3000
+Frontend will start at: [http://localhost:3000](http://localhost:3000)
 
 # Usage
 
