@@ -1,0 +1,132 @@
+/* ImageRecognition.css */
+
+.image-recognition-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.image-recognition-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #4a4a4a;
+}
+
+.dropzone {
+  border: 2px dashed #6c63ff;
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  color: #6c63ff;
+  cursor: pointer;
+  background: #f9f9ff;
+  transition: background 0.3s ease;
+}
+
+.dropzone:hover {
+  background: #f0f0ff;
+}
+
+.preview-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.preview-container h3 {
+  margin-bottom: 1rem;
+  color: #4a4a4a;
+}
+
+.image-preview {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.analyze-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.analyze-button:hover {
+  background-color: #574fd6;
+}
+
+.analyze-button:disabled {
+  background-color: #a6a2f7;
+  cursor: not-allowed;
+}
+
+.error-message {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #ffe6e6;
+  color: #d8000c;
+  border: 1px solid #ffbaba;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.results-container {
+  margin-top: 2rem;
+}
+
+.results-container h3 {
+  color: #4a4a4a;
+  margin-bottom: 1rem;
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+}
+
+.result-item {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #f4f4ff;
+  box-shadow: 0 4px 10px rgba(108, 99, 255, 0.1);
+}
+
+.result-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.confidence-bar-container {
+  position: relative;
+  height: 10px;
+  background-color: #e0e0ff;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.confidence-bar {
+  height: 100%;
+  background-color: #6c63ff;
+  transition: width 0.5s ease-in-out;
+}
+
+.confidence-value {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #555;
+}
