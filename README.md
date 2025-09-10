@@ -1,2 +1,4 @@
-# AI-Image-Recognizer
-I have built a web app which would be able to take an image as an input and give us an output of what that image actually is in the form of 5 options.
+🖼️ AI Image Recognition Web App
+
+An AI-powered web application that recognizes objects in images using a pre-trained TensorFlow (MobileNetV2) model.
+The project is built with a React frontend for image upload and visualization and a Flask backend for model inference and API handling.
